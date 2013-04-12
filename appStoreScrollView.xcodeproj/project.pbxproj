@@ -18,6 +18,8 @@
 		31E6E4D6171792D600E59649 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31E6E4D5171792D600E59649 /* Default-568h@2x.png */; };
 		31E6E4D9171792D600E59649 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4D8171792D600E59649 /* ViewController.m */; };
 		31E6E4DC171792D600E59649 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E6E4DA171792D600E59649 /* ViewController.xib */; };
+		31E6E4E4171794AA00E59649 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4E3171794AA00E59649 /* MyCell.m */; };
+		31E6E4E61717956200E59649 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E6E4E51717956200E59649 /* MyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		31E6E4D7171792D600E59649 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31E6E4D8171792D600E59649 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		31E6E4DB171792D600E59649 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		31E6E4E2171794AA00E59649 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		31E6E4E3171794AA00E59649 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		31E6E4E51717956200E59649 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				31E6E4D8171792D600E59649 /* ViewController.m */,
 				31E6E4DA171792D600E59649 /* ViewController.xib */,
 				31E6E4C6171792D600E59649 /* Supporting Files */,
+				31E6E4E2171794AA00E59649 /* MyCell.h */,
+				31E6E4E3171794AA00E59649 /* MyCell.m */,
+				31E6E4E51717956200E59649 /* MyCell.xib */,
 			);
 			path = appStoreScrollView;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				31E6E4D4171792D600E59649 /* Default@2x.png in Resources */,
 				31E6E4D6171792D600E59649 /* Default-568h@2x.png in Resources */,
 				31E6E4DC171792D600E59649 /* ViewController.xib in Resources */,
+				31E6E4E61717956200E59649 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				31E6E4CC171792D600E59649 /* main.m in Sources */,
 				31E6E4D0171792D600E59649 /* AppDelegate.m in Sources */,
 				31E6E4D9171792D600E59649 /* ViewController.m in Sources */,
+				31E6E4E4171794AA00E59649 /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
